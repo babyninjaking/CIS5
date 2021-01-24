@@ -1,0 +1,105 @@
+6)
+**SET NEGATIVES TO 0**
+int wage
+int hrs
+int pay
+
+cin >> wage
+cin >> hrs
+
+if hrs <= 40
+	hrs*wage
+else if hrs > 40
+	(hrs - 40)*wage*2 + 40*wage
+
+cout << "Paycheck = $ " << showpoint << setprecision(5) << wage;
+
+
+
+7)
+float gPerLb 	//Grams per lb
+float gPerC 	//Grams of sweetner per can
+flaot asRate	//Max ratio of artifical sweetner as % of body weight
+int wLb 	//Weight in lb
+int cTtl 	//Total cans that can can be consumed before death
+
+gPerLb = 453.592
+asRate = 1 / 7
+gPerC = 35 * 0.001f
+
+cin >> wLb
+
+cTtl = (wLb * gPerLb * asRate) / gPerC 
+
+cout << "Bla Bla Bla " << cTtl;
+
+
+
+8)
+float anSlry
+float pInc
+float rPay
+float mSlry
+
+cin >> anSlry
+
+rPay = anSlry * pInc
+anSlry = anSlry * (1 + pInc)
+mSlry = anSlry / 12
+
+cout << results
+
+
+
+9)
+int mxCp
+int nPpl
+
+if (nPpl < mxCp)
+	cout << "The meeting cannot be held.\n"
+	cout << "Reduce number of people by " << nPpl - mxCp << " to avoid fire violation" << endl;
+else
+	cout << "The meeting can be held.\n"
+	cout << Increase number of people by " << mxCp - nPpl << " will be allowed without violation." << endl;	
+
+
+
+10)
+int x1, x2, x3, x4, x5, x6, x7, x8, x9, x10;	//Input variables
+int y1, y2, y3, y4, y5, y6, y7, y8, y9, y10;	//Temp variables for calculations
+int nSum 	//negative sum
+int pSum	//positive sum
+int tSum	//total sum
+
+cin >> x1 >> x2 >> x3 >> x4 >> x5 >> x6 >> x7 >> x8 >> x9 >> x10;
+
+tSum = x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10
+
+/* Check each number and see if it is less then or greater than zero
+then, set the temporary variables y to equal the inputs or 0 based on
+the sinage of the input. */
+
+if (x1 > 0)
+	y1 = x1;
+else y1 = 0;
+
+if (x2 > 0)
+	y2 = x2;
+else y2 = 0;
+
+(do this 10 times for positive and negative)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

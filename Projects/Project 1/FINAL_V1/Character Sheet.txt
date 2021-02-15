@@ -1,0 +1,7 @@
+Jason Wilmot
+Strength:11
+Dexterity:12
+Constitution:11
+Wisdom:14
+Intelligence:12
+Charisma:17

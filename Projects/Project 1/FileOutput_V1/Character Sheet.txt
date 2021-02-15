@@ -1,0 +1,7 @@
+Vall Dar'Koth
+Strength:14
+Dexterity:9
+Constitution:12
+Wisdom:12
+Intelligence:11
+Charisma:5

@@ -1,0 +1,7 @@
+Jason Wilmot, age 19
+Strength:12
+Dexterity:7
+Constitution:12
+Wisdom:9
+Intelligence:9
+Charisma:5
